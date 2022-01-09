@@ -72,11 +72,9 @@ namespace Drawer
             }
 
             UserToBuild MainGroup = Users.Find(x => x.Name == "NEWSGO Subs");
-
             UserToBuild thet1x = Users.Find(x => x.Predictions.Values.Contains("thet1x"));
 
             output += $"Предикты подписчиков группы [newsgo|NEWS:GO] занимают {MainGroup.CurrentPosition} место с {MainGroup.Points} очками. По сравнению с прошлым обновлением топа они {(MainGroup.DeltaPosition > 0 ? "поднялись" : "упали")} на {Math.Abs(MainGroup.DeltaPosition)} мест. Перед этим они были на {MainGroup.PreviousPosition} месте.\n\n";
-
             output += $"Предикты [thet1x|папы зетикса] занимают {thet1x.CurrentPosition} место с {thet1x.Points} очками. По сравнению с прошлым обновлением топа они {(thet1x.DeltaPosition > 0 ? "поднялись" : "упали")} на {Math.Abs(thet1x.DeltaPosition)} мест. Перед этим они были на {thet1x.PreviousPosition} месте.\n\n";
 
             File.WriteAllText("PlayerPick.txt", output);
