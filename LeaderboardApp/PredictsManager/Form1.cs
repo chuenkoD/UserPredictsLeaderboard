@@ -193,7 +193,7 @@ namespace PredictsManager
                 leaderboard.Players = Randomizer.GenerateTopTwenty("broky", "EliGE", "ropz", "Twistzz", "stavn", "KSCERATO", "blameF");
 
                 leaderboard.Start();
-                leaderboard.SaveAll();
+                //leaderboard.SaveAll();
                 button5.Text = $"Progress 0%";
 
                 leaderboard.CountPicks("EliGE");
@@ -285,8 +285,8 @@ namespace PredictsManager
                     g.DrawImage(footer, 0, 3737, 4355, 233);
                     g.DrawImage(upperline, 76, 67, 4203, 2);
 
-                    g.DrawString("@crustbrns", softsauce, brush, new RectangleF(168, 69, 520, 233), nameformat);
-                    g.DrawString("newsgo", softsauce, brush, new RectangleF(3968, 69, 520, 233), nameformat);
+                    g.DrawString("NEWS:GO", softsauce, brush, new RectangleF(168, 69, 520, 233), nameformat);
+                    g.DrawString("", softsauce, brush, new RectangleF(3968, 69, 520, 233), nameformat);
                     g.DrawImage(vkicon, 76, 149, 74, 74);
 
                     for (int i = 0; i < 20; i++)
