@@ -190,7 +190,7 @@ namespace PredictsManager
                 //leaderboard.Users = Randomizer.RandomizeGroupOfUsers(5000);
                 //leaderboard.Players = Randomizer.RandomizeTopTwenty(2);
                 //leaderboard.Players.ElementAt(0).Value = new PlayerToBuild("s1mple", 20);
-                leaderboard.Players = Randomizer.GenerateTopTwenty("broky", "EliGE", "ropz", "Twistzz", "stavn", "KSCERATO", "blameF");
+                leaderboard.Players = Randomizer.GenerateTopTwenty("broky", "EliGE", "ropz", "Twistzz", "stavn", "KSCERATO", "blameF", "NAF", "huNter", "Jame", "YEKINDAR", "B1T", "Hobbit", "device", "electronic", "NiKo", "Ax1Le", "ZywOo", "sh1ro", "s1mple");
 
                 leaderboard.Start();
                 //leaderboard.SaveAll();

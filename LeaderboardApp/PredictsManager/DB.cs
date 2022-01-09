@@ -59,7 +59,6 @@ namespace PredictsManager
             using (IDbConnection connection = new SqlConnection(ConnectionString))
             {
                 var affectedRows = connection.Execute(sql);
-
             }
         }
         public static void DisplayAll()

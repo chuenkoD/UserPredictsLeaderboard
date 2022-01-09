@@ -23,6 +23,7 @@ namespace Drawer
             {
                 Users = JsonSerializer.Deserialize<List<UserToBuild>>(File.ReadAllText("us.lba"));
             }
+
             return Users;
         }
 

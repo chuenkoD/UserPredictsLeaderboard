@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PredictsManager
 {
-    class States
+    public static class States
     {
     }
 }
